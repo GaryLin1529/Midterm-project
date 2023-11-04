@@ -1,0 +1,56 @@
+        /*左邊區塊*/
+        .left-bar {
+            width: 8.7%;
+            height: 100%;
+            background-color: #534444;
+            position: fixed;
+            /*不管頁面滾到哪，這個長條都會在*/
+            top: 0;
+            /*靠上*/
+            left: 0;
+            /*靠左*/
+            /*要打position才能調這個*/
+        }
+
+        /*頭貼區塊(方形)*/
+        .StikerArea {
+            width: 100%;
+            height: 18.5%;
+            /*雖然寬高要一樣，但發現隨著頁面放大我的臉會朝我逼近，所以改成%數顯示*/
+            background-color: #000;
+            /* 设置背景颜色 */
+            border: 100%;
+            /*方形*/
+        }
+
+        .circle {
+            width: 100.3%;
+            height: 100.3%;
+            /*同上，但圓形還是得一樣才能變圓形*/
+            border-radius: 50%;
+            /*方形 -> 圓形*/
+            overflow: hidden;
+
+        }
+
+        .circle img {
+            width: 100%;
+            height: 110%;
+            object-fit: cover;
+            /*保持圖片不變形並填充進圓形(容器)裡*/
+        }
+
+
+        .BasicInformation {
+            text-align: center;
+            font-family: 'Nothing You Could Do', cursive;
+            font-size: xx-small;
+            color: white;
+        }
+
+
+        /*右邊區塊*/
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+        }
